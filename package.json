@@ -1,0 +1,16 @@
+{
+  "name": "csn-e2e-poc",
+  "version": "1.0.0",
+  "dependencies": {},
+  "main": "index.js",
+  "author": "Quang Vu",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.8.10",
+    "dotenv": "^16.3.1"
+  },
+  "scripts": {
+    "start": "yarn playwright test"
+  }
+}
